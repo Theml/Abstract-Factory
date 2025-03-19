@@ -25,8 +25,8 @@ classDiagram
 ### Diagrama do Codigo de Exemplo
 ```mermaid
 classDiagram
-  FactoryMarca --|> _AbstractFactory_
-  FactoryModelo --|> _AbstractFactory_
+  FactoryMoto --|> _AbstractFactory_
+  FactoryCarro --|> _AbstractFactory_
   Veiculo ..> _AbstractFactory_
   Veiculo --> _Marca_
   Veiculo --> _Modelo_
