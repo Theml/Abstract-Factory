@@ -25,17 +25,4 @@ classDiagram
 ### Diagrama do Codigo de Exemplo
 ```mermaid
 classDiagram
-  FactoryMoto --|> _AbstractFactory_
-  FactoryCarro --|> _AbstractFactory_
-  Veiculo ..> _AbstractFactory_
-  Veiculo --> _Marca_
-  Veiculo --> _Modelo_
-  _Marca_ <|-- MarcaCarro
-  _Marca_ <|-- MarcaMoto
-  _Modelo_ <|-- ModeloCarro
-  _Modelo_ <|-- ModeloMoto
-  FactoryMoto ..> ModeloMoto
-  FactoryMoto ..> MarcaMoto
-  FactoryCarro ..> MarcaCarro
-  FactoryCarro ..> ModeloCarro
 ```
