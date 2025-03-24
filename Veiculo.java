@@ -7,4 +7,12 @@ public class Veiculo {
         this.marca = fabrica.createMarca();
         this.modelo = fabrica.createModelo();
     }
+
+    public String construirMarca() {
+        return this.marca.construir();
+    }
+
+    public String construirModelo() {
+        return this.modelo.construir();
+    }
 }
